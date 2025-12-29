@@ -68,3 +68,69 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## O que foi criado ou utilizado neste projeto:
+Estrutura de Pastas
+src/
+├── components/        (Componentes reutilizáveis)
+├── pages/            (Páginas da aplicação)
+├── context/          (Gerenciamento de estado)
+├── styles/           (Arquivos CSS)
+├── App.jsx
+└── index.jsx
+
+📄 Arquivos Criados
+Raiz
+
+App.jsx - Componente principal com rotas
+index.jsx - Ponto de entrada da aplicação
+package.json - Dependências do projeto
+
+Context
+
+TaskContext.jsx - Gerenciamento global de tarefas
+
+Componentes
+
+Navigation.jsx - Barra de navegação
+TaskForm.jsx - Formulário para adicionar/editar tarefas
+TaskList.jsx - Lista de tarefas
+TaskItem.jsx - Item individual da tarefa
+
+Páginas
+
+Home.jsx - Página inicial com estatísticas
+AddTask.jsx - Página para adicionar tarefa
+EditTask.jsx - Página para editar tarefa
+
+Estilos CSS
+
+App.css - Estilos globais da aplicação
+Navigation.css - Estilos da navbar
+TaskForm.css - Estilos do formulário
+TaskList.css - Estilos da lista
+TaskItem.css - Estilos do item individual
+Pages.css - Estilos das páginas
+index.css - Reset e estilos base
+
+
+⚙️ Tecnologias Utilizadas
+
+React 18
+React Router v6
+Context API + useContext
+useState e useEffect
+localStorage
+CSS3 (Flexbox, Grid, Responsivo)
+
+## Objetivo de utilização do que aprendi durante o curso:
+
+Componente Contador (contador simples com useState).
+Aplicação To-Do com páginas Home / Adicionar / Editar usando React Router v6.
+Estado global via Context API (TaskProvider) com persistência em localStorage.
+Navegação, CRUD (adicionar, editar, excluir, marcar concluída).
+Utilizei os componentes BrowserRouter, Route e Switch para configurar as rotas.
+Context API: Criei um contexto para compartilhar o estado das tarefas entre os componentes.
+useEffect: Utilizei useEffect para carregar e salvar tarefas no localStorage.
+Componentização: Separei bem os componentes, mantendo a lógica do contexto fora dos componentes de apresentação.
